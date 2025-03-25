@@ -13,7 +13,7 @@ This project demonstrates the use of Microsoft's Semantic Kernel to create an AI
 
 - Python 3.12 or higher
 - Azure OpenAI API access
-- Semantic Kernel package
+- Semantic Kernel package (semantic-kernel==1.16.0)
 - python-dotenv package
 
 ## Setup
@@ -21,7 +21,7 @@ This project demonstrates the use of Microsoft's Semantic Kernel to create an AI
 1. Clone this repository
 2. Install the required packages:
    ```bash
-   pip install semantic-kernel python-dotenv
+   pip -r install requirements.txt
    ```
 3. Create a `.env` file in the project root with the following variables:
    ```
